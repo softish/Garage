@@ -3,7 +3,6 @@ package test;
 import mathLib.EmptyArrayException;
 import mathLib.statistics.Average;
 import org.junit.Test;
-import org.w3c.dom.Document;
 
 import static org.junit.Assert.*;
 

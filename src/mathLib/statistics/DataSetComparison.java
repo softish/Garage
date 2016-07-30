@@ -27,7 +27,7 @@ public class DataSetComparison {
      * @return correlational coefficient
      * @throws ArrayMismatchException if data sets are of different sizes.
      */
-    public static double correlationalCoefficient(double[] x, double[] y) throws ArrayMismatchException {
+    public static double correlationalCoefficient(double[] x, double[] y) {
         if(x.length != y.length) {
             throw new ArrayMismatchException();
         }
@@ -52,7 +52,7 @@ public class DataSetComparison {
         return false;
     }
 
-    public static double covariance(double[] x, double[] y) throws ArrayMismatchException {
+    public static double covariance(double[] x, double[] y) {
         if(x.length != y.length) {
             throw new ArrayMismatchException();
         }

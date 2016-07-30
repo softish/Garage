@@ -44,7 +44,7 @@ public class StatisticalDispersion {
         return Math.sqrt(varianceSample(values));
     }
 
-    public static double varianceRange(double... values) throws EmptyArrayException {
+    public static double varianceRange(double... values) {
         if(values == null || values.length == 0) {
             throw new EmptyArrayException();
         }

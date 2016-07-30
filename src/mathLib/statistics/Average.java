@@ -15,7 +15,7 @@ public class Average {
      * @return the arithmetic mean
      * @throws EmptyArrayException if values are em
      */
-    public static double arithmeticMean(double... values) throws EmptyArrayException {
+    public static double arithmeticMean(double... values) {
         double x = 0;
 
         if(values == null || values.length == 0) {
